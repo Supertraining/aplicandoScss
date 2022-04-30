@@ -2,7 +2,7 @@
     color: white;
     text-align: center;
     font-size: 16px;
-    font-family: 'Junge', serif;
+    font-family: $logoFontFam;
     animation-name: logoFadeIn;
     animation-duration: 5s;
   
@@ -19,3 +19,5 @@
     to {opacity: 1;}
     }
         }
+
+       

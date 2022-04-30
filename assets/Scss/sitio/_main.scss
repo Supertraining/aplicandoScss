@@ -4,10 +4,10 @@
         h5 {
             font-size: 2em;
             font-weight: lighter;
-            font-family: 'Inria Serif', serif;
+            font-family: $tituloYparrafosFont;
             letter-spacing: 3px;
-            text-decoration: underline solid silver 2px;
-            color: silver;
+            text-decoration: underline solid $colorPrimario 2px;
+            color: $tituloYparrafosColor;
         }
     
             }
@@ -16,15 +16,15 @@
     font-style: italic;
     font-size: 1em;
     letter-spacing: 2px;
-    font-family: 'Inria Serif', serif;
+    font-family: $tituloYparrafosFont;
     text-align: justify;
-    color: silver;
+    color: $colorPrimario;
 }
 
 .titulo {
-    font-family: 'Inria Serif', serif;
+    font-family: $tituloYparrafosFont;
     font-weight:100;
-    text-decoration: underline solid silver 2px;
+    text-decoration: underline solid $colorPrimario 2px;
     letter-spacing: 3px;
     font-size: 1.5em;
   }

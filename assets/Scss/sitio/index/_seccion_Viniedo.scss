@@ -1,9 +1,9 @@
 .sectionViñedoSubTitulo {
     font-size: 2em;
     letter-spacing: 3px;
-    font-family: 'Inria Serif', serif;
-    color: silver;
-    text-decoration:underline solid silver 1px;
+    font-family: $tituloYparrafosFont;
+    color: $tituloYparrafosColor;
+    text-decoration:underline solid $tituloYparrafosColor 1px;
 }
 
 @media (min-width:768px) {

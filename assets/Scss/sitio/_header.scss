@@ -17,7 +17,7 @@ header {
 
         
         .burguerIcon {
-            background-color: silver;
+            background-color: $colorPrimario;
             border: none;
             border-radius: 20%;
             animation-name: colorTilt;
@@ -25,9 +25,9 @@ header {
             animation-iteration-count: infinite;
         }
         @keyframes colorTilt {
-            0% {opacity: 0; background-color: silver; box-shadow: none;}
+            0% {opacity: 0; background-color: $colorPrimario; box-shadow: none;}
             50% {opacity: 1; background-color: rgb(180, 9, 180); box-shadow: 5px 5px 20px 10px rgba(180, 9, 180, 0.63);}
-            100% {opacity: 0; background-color: silver; box-shadow: none;}
+            100% {opacity: 0; background-color: $colorPrimario; box-shadow: none;}
         }
     
         .navegacion {
@@ -69,7 +69,7 @@ header {
             font-family: "Hurricane";
             letter-spacing: 5px;
             font-weight:lighter;
-            color: silver;
+            color: $colorPrimario;
         }
         .imgEncabezado h1 {
             font-size: 2em;
