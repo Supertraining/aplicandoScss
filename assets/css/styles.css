@@ -24,7 +24,7 @@ header .headerNavbar {
 }
 
 header nav {
-  background-image: url(../Img/wood_1.png);
+  background-image: url(../img/wood_1.png);
 }
 
 header nav .burguerIcon {
@@ -173,7 +173,7 @@ header .imgEncabezado h1 {
 }
 
 footer {
-  background-image: url(../Img/wood_1.png);
+  background-image: url(../img/wood_1.png);
 }
 
 footer .footer__NavBarSocial a {
@@ -314,7 +314,7 @@ footer .footer__NavBarSocial a .mail:hover {
 }
 
 .woodBoard {
-  background-image: url(../Img/wood_1.png);
+  background-image: url(../img/wood_1.png);
 }
 
 .woodBoard h5 {
@@ -353,7 +353,7 @@ footer .footer__NavBarSocial a .mail:hover {
 
 /******INDEX****/
 .imgEncabezadoIndex {
-  background-image: url(../Img/IndexHeader.jpg);
+  background-image: url(../img/IndexHeader.jpg);
   background-position: center 14cm;
 }
 
@@ -440,7 +440,7 @@ footer .footer__NavBarSocial a .mail:hover {
 /******BODEGA****/
 /***HEADER************/
 .imgEncabezadoBodega {
-  background-image: url(../Img/BodegaHeader.jpg);
+  background-image: url(../img/BodegaHeader.jpg);
   background-position: center;
   background-size: cover;
 }
