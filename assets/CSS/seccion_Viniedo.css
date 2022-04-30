@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.sectionViñedoSubTitulo {
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-family: 'Inria Serif', serif;
+  color: silver;
+  -webkit-text-decoration: underline solid silver 1px;
+          text-decoration: underline solid silver 1px;
+}
+
+@media (min-width: 768px) {
+  .sectionViñedoParrafo {
+    font-size: 1em;
+  }
+}
+
+.img {
+  width: 450px;
+}
+
+.img .img1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 5s;
+  transition: 5s;
+  -webkit-box-shadow: -10px 10px 10px #3b589886;
+          box-shadow: -10px 10px 10px #3b589886;
+}
+/*# sourceMappingURL=seccion_Viniedo.css.map */

@@ -1,0 +1,26 @@
+/***HEADER************/
+.imgEncabezadoBodega {
+  background-image: url(../Img/BodegaHeader.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/***WOODBOARD************/
+.video {
+  height: 500px;
+}
+
+/***IMAGENES************/
+.contenedorImagenes__Img1234 {
+  height: 275px;
+  width: 275px;
+}
+
+.contenedorImagenes__Img1234:hover {
+  height: 350px;
+  width: 350px;
+  -webkit-transition: 5s;
+  transition: 5s;
+  border: 5px solid white;
+}
+/*# sourceMappingURL=bodegaHeader.css.map */

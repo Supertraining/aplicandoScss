@@ -1,0 +1,27 @@
+.botonWoodBoard {
+    color: silver;
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: "Hurricane";
+    font-weight: 100;
+    padding: 20px 20px;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    &:hover {
+        cursor: pointer;
+        animation: none;
+    }
+        }
+@media (min-width:576px) {      
+    .botonWoodBoard {
+    font-size: 4em;
+    }
+        }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+ }

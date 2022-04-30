@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,gBAAgB,EAAE,2BAA2B;EAC7C,mBAAmB,EAAE,WAAW;CAEnC",
+    "sources": [
+        "../Scss/sitio/index/indexHeader.scss"
+    ],
+    "names": [],
+    "file": "indexHeader.css"
+}

@@ -1,0 +1,38 @@
+.woodBoard {
+  background-image: url(../Img/wood_1.png);
+}
+
+.woodBoard h5 {
+  font-size: 2em;
+  font-weight: lighter;
+  font-family: 'Inria Serif', serif;
+  letter-spacing: 3px;
+  -webkit-text-decoration: underline solid silver 2px;
+          text-decoration: underline solid silver 2px;
+  color: silver;
+}
+
+.parrafo {
+  font-style: italic;
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-family: 'Inria Serif', serif;
+  text-align: justify;
+  color: silver;
+}
+
+.titulo {
+  font-family: 'Inria Serif', serif;
+  font-weight: 100;
+  -webkit-text-decoration: underline solid silver 2px;
+          text-decoration: underline solid silver 2px;
+  letter-spacing: 3px;
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .titulo {
+    font-size: 3.5em;
+  }
+}
+/*# sourceMappingURL=main.css.map */

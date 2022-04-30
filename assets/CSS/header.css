@@ -1,0 +1,162 @@
+header .headerNavbar {
+  font-family: "Hurricane";
+  font-style: italic;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+}
+
+@media (min-width: 768px) {
+  header .headerNavbar {
+    font-size: 2em;
+  }
+}
+
+header nav {
+  background-image: url(../Img/wood_1.png);
+}
+
+header nav .burguerIcon {
+  background-color: silver;
+  border: none;
+  border-radius: 20%;
+  -webkit-animation-name: colorTilt;
+          animation-name: colorTilt;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes colorTilt {
+  0% {
+    opacity: 0;
+    background-color: silver;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  50% {
+    opacity: 1;
+    background-color: #b409b4;
+    -webkit-box-shadow: 5px 5px 20px 10px rgba(180, 9, 180, 0.63);
+            box-shadow: 5px 5px 20px 10px rgba(180, 9, 180, 0.63);
+  }
+  100% {
+    opacity: 0;
+    background-color: silver;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@keyframes colorTilt {
+  0% {
+    opacity: 0;
+    background-color: silver;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  50% {
+    opacity: 1;
+    background-color: #b409b4;
+    -webkit-box-shadow: 5px 5px 20px 10px rgba(180, 9, 180, 0.63);
+            box-shadow: 5px 5px 20px 10px rgba(180, 9, 180, 0.63);
+  }
+  100% {
+    opacity: 0;
+    background-color: silver;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+header nav .navegacion {
+  -ms-flex-preferred-size: 0%;
+      flex-basis: 0%;
+}
+
+header nav .headerNavbar_Nav {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-animation-name: logoFadeIn;
+          animation-name: logoFadeIn;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+header nav .backgroundDropDown {
+  font-size: 1.5em;
+  background-color: rgba(247, 239, 239, 0.74);
+  white-space: pre-wrap;
+}
+
+header nav .menuFly {
+  -webkit-animation-name: menuFly;
+          animation-name: menuFly;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-box-shadow: -4px 4px 0px #bc2a8d;
+          box-shadow: -4px 4px 0px #bc2a8d;
+}
+
+@-webkit-keyframes menuFly {
+  from {
+    top: 8cm;
+  }
+  to {
+    top: 1.7cm;
+  }
+}
+
+@keyframes menuFly {
+  from {
+    top: 8cm;
+  }
+  to {
+    top: 1.7cm;
+  }
+}
+
+header nav .dropdown-toggle::after {
+  color: #bc2a8d;
+}
+
+@media (max-width: 570px) {
+  header nav .dropdown-menu {
+    min-width: 0;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+
+header .imgEncabezado {
+  height: 350px;
+  font-family: "Hurricane";
+  letter-spacing: 5px;
+  font-weight: lighter;
+  color: silver;
+}
+
+header .imgEncabezado h1 {
+  font-size: 2em;
+  -webkit-animation-name: logoFadeIn;
+          animation-name: logoFadeIn;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@media (min-width: 260px) {
+  header .imgEncabezado h1 {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 400px) {
+  header .imgEncabezado h1 {
+    font-size: 8em;
+    -webkit-transition: 3s;
+    transition: 3s;
+  }
+}
+/*# sourceMappingURL=header.css.map */

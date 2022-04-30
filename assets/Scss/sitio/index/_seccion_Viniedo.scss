@@ -1,0 +1,23 @@
+.sectionViñedoSubTitulo {
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-family: 'Inria Serif', serif;
+    color: silver;
+    text-decoration:underline solid silver 1px;
+}
+
+@media (min-width:768px) {
+    .sectionViñedoParrafo {
+    font-size: 1em;
+    }
+}
+.img {
+    width: 450px;
+
+    .img1:hover {
+        transform: scale(1.1);
+        transition: 5s;
+        box-shadow: -10px 10px 10px #3b589886
+        }
+            }
+

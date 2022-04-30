@@ -1,0 +1,98 @@
+footer {
+  background-image: url(../Img/wood_1.png);
+}
+
+footer .footer__NavBarSocial a {
+  border: 5px solid silver;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+footer .footer__NavBarSocial a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-animation-name: lightf;
+          animation-name: lightf;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  border-radius: 50%;
+}
+
+footer .footer__NavBarSocial a .face {
+  background-color: #3b5998;
+}
+
+footer .footer__NavBarSocial a .face:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+
+footer .footer__NavBarSocial a .insta {
+  background-color: #bc2a8d;
+}
+
+footer .footer__NavBarSocial a .insta:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+
+footer .footer__NavBarSocial a .wapp {
+  background-color: #25D366;
+}
+
+footer .footer__NavBarSocial a .wapp:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+
+footer .footer__NavBarSocial a .mail {
+  background-color: #b2936d;
+}
+
+footer .footer__NavBarSocial a .mail:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes lightf {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lightf {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer__NavBar a {
+  font-size: 2em;
+  font-family: "Hurricane", cursive;
+  text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__NavBar a:hover {
+  text-shadow: 0px 0px 8px white, 39px -10px 20px silver, 15px -10px 1px #bc2a8e6c;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-text-stroke: 0.5px black;
+  color: transparent;
+}
+/*# sourceMappingURL=footer.css.map */

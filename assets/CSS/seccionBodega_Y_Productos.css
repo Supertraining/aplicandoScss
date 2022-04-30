@@ -1,0 +1,52 @@
+.botonWoodBoard {
+  color: silver;
+  font-size: 2em;
+  font-style: italic;
+  letter-spacing: 3px;
+  font-family: "Hurricane";
+  font-weight: 100;
+  padding: 20px 20px;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.botonWoodBoard:hover {
+  cursor: pointer;
+  -webkit-animation: none;
+          animation: none;
+}
+
+@media (min-width: 576px) {
+  .botonWoodBoard {
+    font-size: 4em;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=seccionBodega_Y_Productos.css.map */
