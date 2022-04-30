@@ -4,11 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Junge&family=Smooch+Sans:wght@300;400&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 /*****SITIO******/
+    @import "./sitio/_reset";
     @import "./sitio/_variables";
     @import "./sitio/_header.scss";
     @import "./sitio/_footer.scss";
