@@ -2,8 +2,8 @@
     font-size: 2em;
     letter-spacing: 3px;
     font-family: $tituloYparrafosFont;
-    color: $tituloYparrafosColor;
-    text-decoration:underline solid $tituloYparrafosColor 1px;
+    color: $colorPrimario;
+    text-decoration:underline solid $colorPrimario 1px;
 }
 
 @media (min-width:768px) {

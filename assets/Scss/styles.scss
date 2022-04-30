@@ -9,12 +9,12 @@
     padding: 0;
 }
 /*****SITIO******/
+    @import "./sitio/_variables";
     @import "./sitio/_header.scss";
     @import "./sitio/_footer.scss";
     @import "./sitio/_Logos.scss";
     @import"./sitio/_main.scss";
-    @import "./sitio/variables";
-
+   
     /******INDEX****/
         @import "./sitio/index/_indexHeader.scss";
         @import "./sitio/index/_seccionBodega_Y_Productos.scss";

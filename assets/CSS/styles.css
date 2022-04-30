@@ -274,7 +274,7 @@ footer .footer__NavBarSocial a .mail:hover {
   color: white;
   text-align: center;
   font-size: 16px;
-  font-family: 'Junge', serif;
+  font-family: "Junge", serif;
   -webkit-animation-name: logoFadeIn;
           animation-name: logoFadeIn;
   -webkit-animation-duration: 5s;
@@ -320,7 +320,7 @@ footer .footer__NavBarSocial a .mail:hover {
 .woodBoard h5 {
   font-size: 2em;
   font-weight: lighter;
-  font-family: 'Inria Serif', serif;
+  font-family: "Inria Serif", serif;
   letter-spacing: 3px;
   -webkit-text-decoration: underline solid silver 2px;
           text-decoration: underline solid silver 2px;
@@ -331,13 +331,13 @@ footer .footer__NavBarSocial a .mail:hover {
   font-style: italic;
   font-size: 1em;
   letter-spacing: 2px;
-  font-family: 'Inria Serif', serif;
+  font-family: "Inria Serif", serif;
   text-align: justify;
   color: silver;
 }
 
 .titulo {
-  font-family: 'Inria Serif', serif;
+  font-family: "Inria Serif", serif;
   font-weight: 100;
   -webkit-text-decoration: underline solid silver 2px;
           text-decoration: underline solid silver 2px;
@@ -412,7 +412,7 @@ footer .footer__NavBarSocial a .mail:hover {
 .sectionViñedoSubTitulo {
   font-size: 2em;
   letter-spacing: 3px;
-  font-family: 'Inria Serif', serif;
+  font-family: "Inria Serif", serif;
   color: silver;
   -webkit-text-decoration: underline solid silver 1px;
           text-decoration: underline solid silver 1px;
