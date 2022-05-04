@@ -321,28 +321,29 @@ footer .footer__NavBarSocial a .mail:hover {
   font-size: 2em;
   font-weight: lighter;
   font-family: "Inria Serif", serif;
-  letter-spacing: 3px;
   -webkit-text-decoration: underline solid silver 2px;
           text-decoration: underline solid silver 2px;
   color: silver;
+  letter-spacing: 3px;
 }
 
 .parrafo {
-  font-style: italic;
   font-size: 1em;
-  letter-spacing: 2px;
+  font-weight: normal;
   font-family: "Inria Serif", serif;
-  text-align: justify;
+  text-decoration: none;
   color: silver;
+  letter-spacing: 2px;
 }
 
 .titulo {
-  font-family: "Inria Serif", serif;
-  font-weight: 100;
-  -webkit-text-decoration: underline solid silver 2px;
-          text-decoration: underline solid silver 2px;
-  letter-spacing: 3px;
   font-size: 1.5em;
+  font-weight: 100;
+  font-family: "Inria Serif", serif;
+  -webkit-text-decoration: underline solid silver 2pxe;
+          text-decoration: underline solid silver 2pxe;
+  color: silver;
+  letter-spacing: 3px;
 }
 
 @media (min-width: 768px) {
@@ -357,7 +358,7 @@ footer .footer__NavBarSocial a .mail:hover {
   background-position: center 14cm;
 }
 
-.botonWoodBoard {
+.botonWoodBoardBodega, .botonWoodBoardProductos {
   color: silver;
   font-size: 2em;
   font-style: italic;
@@ -373,14 +374,21 @@ footer .footer__NavBarSocial a .mail:hover {
           animation-iteration-count: infinite;
 }
 
-.botonWoodBoard:hover {
+.botonWoodBoardBodega:hover, .botonWoodBoardProductos:hover {
   cursor: pointer;
   -webkit-animation: none;
           animation: none;
+  text-shadow: 0px 0px 8px white, 39px -10px 20px silver;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-text-stroke: 0.7px black;
+  color: transparent;
 }
 
 @media (min-width: 576px) {
-  .botonWoodBoard {
+  .botonWoodBoardBodega, .botonWoodBoardProductos {
     font-size: 4em;
   }
 }
@@ -407,6 +415,12 @@ footer .footer__NavBarSocial a .mail:hover {
   100% {
     opacity: 0;
   }
+}
+
+.botonWoodBoardProductos {
+  border: 1px solid silver;
+  margin: 10px;
+  background-color: rgba(0, 255, 255, 0.137);
 }
 
 .sectionViñedoSubTitulo {

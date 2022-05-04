@@ -1,32 +1,27 @@
+@mixin textoPropiedadesPrincipales ($tamanio, $peso, $familia, $subrayado, $colour, $espaciado ) {
+  font-size: $tamanio;
+  font-weight: $peso;
+  font-family: $familia;
+  text-decoration: $subrayado;
+  color: $colour;
+  letter-spacing: $espaciado;
+}
+
 .woodBoard {
     background-image: url(../img/wood_1.png);
 
         h5 {
-            font-size: 2em;
-            font-weight: lighter;
-            font-family: $tituloYparrafosFont;
-            letter-spacing: 3px;
-            text-decoration: underline solid $colorPrimario 2px;
-            color: $colorPrimario;
+          @include textoPropiedadesPrincipales(2em, lighter,$tituloYparrafosFont ,underline solid $colorPrimario 2px ,$colorPrimario ,3px)
         }
-    
+        
             }
 
 .parrafo {
-    font-style: italic;
-    font-size: 1em;
-    letter-spacing: 2px;
-    font-family: $tituloYparrafosFont;
-    text-align: justify;
-    color: $colorPrimario;
+  @include textoPropiedadesPrincipales(1em,normal ,$tituloYparrafosFont ,none ,$colorPrimario ,2px);
 }
 
 .titulo {
-    font-family: $tituloYparrafosFont;
-    font-weight:100;
-    text-decoration: underline solid $colorPrimario 2px;
-    letter-spacing: 3px;
-    font-size: 1.5em;
+  @include textoPropiedadesPrincipales(1.5em ,100 ,$tituloYparrafosFont ,underline solid $colorPrimario 2pxe ,$colorPrimario ,3px);
   }
   @media (min-width:768px) {
     .titulo {
